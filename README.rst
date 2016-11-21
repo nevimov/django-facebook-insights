@@ -180,18 +180,17 @@ Contributing code
 
     $ git clone https://github.com/nevimov/django-facebook-insights
 
-* Optionally, create and activate a virtual environment::
+* Setup a virtual environment::
 
     $ virtualenv venv
     $ source venv/bin/activate
+    $ pip install -U pip
+    $ pip install django
+    $ pip install -r requirements.txt
 
 * In directory 'tests' create a file named 'secret.py'. In this file, set
    the `FACEBOOK_INSIGHTS_ACCESS_TOKEN` setting'.  Alternatively, define an
    environment variable with the same name.
-
-* If you use Python 2, you'll need to install *mock*::
-
-    $ pip install mock
 
 * Run tests to ensure everything is OK::
 
