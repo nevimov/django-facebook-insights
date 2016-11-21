@@ -1,0 +1,16 @@
+*~
+*.swp
+*.py[cod]
+__pycache__
+
+/tests/secret.py
+
+/temp/
+/venv/
+
+.tox/
+
+# Setuptools
+*.egg-info
+/build/
+/dist/

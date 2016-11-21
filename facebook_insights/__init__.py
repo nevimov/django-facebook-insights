@@ -1,0 +1,1 @@
+from facebook_insights.metrics import fetch_metrics
